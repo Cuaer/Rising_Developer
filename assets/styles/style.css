@@ -1,0 +1,140 @@
+/*Color palette for profile:
+Color palette: #4c4c4c, #6f6f6f, #ececec, #1c1c1c, #040404 
+
+Nav bar with inline links to on-page items*******
+organize CSS
+insert media pixels and etc
+*/
+
+* {
+    box-sizing: border-box;
+    margin: 1 0 0 1;
+}
+
+body {
+    background-color: #BFC0C0;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+nav {
+    position: sticky;
+    background-color: #4F5D75;
+    width: 100%;
+    overflow: auto;
+    
+}
+
+nav li {
+    display: inline-block;
+    float: left;
+    text-align:center;
+    color: white;
+    text-decoration: none;
+    font-size: 16px;
+    width: 25%; 
+    text-align: center;
+}
+
+nav a:hover {
+    background-color: #2D3142;
+}
+
+nav li a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 15px 10px;
+    text-decoration: none;   
+}
+
+h1 {
+    font-size: 20px;
+    display:block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 7em;
+}
+
+h4{
+    font-size: 16pt;
+}
+
+h5{
+    font-size: 16pt;
+}
+
+h6{
+    font-size: 16pt;
+}
+
+.description {
+    display:block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 11em;
+}
+
+#About-Me {
+    background-color: #4F5D75;
+    padding: 1px;
+}
+
+#Contact {
+    background-color: #4F5D75;
+    padding: 1px;
+}
+
+footer {
+    width: 100%;
+    background-color: rgb(255, 255, 255);
+}
+/*Moved all images to section below*/
+
+.horiseon-img {
+    height: 100px;
+    width: auto;
+    padding: 0 0 0 0;
+    
+}
+
+.profile-picture {
+    display:block;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 20px;
+    width: auto;
+    height: 150px;
+    border-radius: 20%;
+}
+
+.butterfly-img {
+    height: auto;
+    width: 100px;
+}
+
+/*Accessibility for large tablets*/
+@media screen and (max-width: 991px) {
+    nav li {
+        float: none;
+        display: inline-block;
+        width: 100%;
+        text-align: left;
+    }
+
+/*Accessibility for medium tablets*/    
+@media screen and (max-width: 767px) {
+    nav li {
+        float: none;
+        display: inline-block;
+        width: 75%;
+        text-align: left;
+    }
+
+/*Accessibility for smart phones*/    
+@media screen and (max-width: 479px) {
+    nav li {
+        float: none;
+        display: block;
+        width: 50%;
+        text-align: left;
+    }
