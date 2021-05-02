@@ -90,10 +90,17 @@ footer {
 }
 /*Moved all images to section below*/
 /*Images for previous work*/
-.horiseon-img .Project-HASH-img .Portfolio-img{
+.horiseon-img {
     height: 100px;
     width: auto;
     padding: 0 0 0 0;
+}
+
+.Portfolio-img {
+
+}
+
+.Project-HASH-img {
     
 }
 

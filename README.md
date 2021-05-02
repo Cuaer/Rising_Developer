@@ -23,3 +23,6 @@ Some requirements include:
 5. Have a polished, mobile-responsive user interface.
 
 # The Result
+
+---
+© 2021 Licensing under MIT
