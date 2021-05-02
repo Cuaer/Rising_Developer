@@ -89,8 +89,8 @@ footer {
     background-color: rgb(255, 255, 255);
 }
 /*Moved all images to section below*/
-
-.horiseon-img {
+/*Images for previous work*/
+.horiseon-img .Project-HASH-img .Portfolio-img{
     height: 100px;
     width: auto;
     padding: 0 0 0 0;
@@ -111,30 +111,3 @@ footer {
     height: auto;
     width: 100px;
 }
-
-/*Accessibility for large tablets*/
-@media screen and (max-width: 991px) {
-    nav li {
-        float: none;
-        display: inline-block;
-        width: 100%;
-        text-align: left;
-    }
-
-/*Accessibility for medium tablets*/    
-@media screen and (max-width: 767px) {
-    nav li {
-        float: none;
-        display: inline-block;
-        width: 75%;
-        text-align: left;
-    }
-
-/*Accessibility for smart phones*/    
-@media screen and (max-width: 479px) {
-    nav li {
-        float: none;
-        display: block;
-        width: 50%;
-        text-align: left;
-    }
